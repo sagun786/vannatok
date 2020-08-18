@@ -19,7 +19,7 @@ export class AuthService {
   auth0Client$ = (from(
     createAuth0Client({
       domain: 'vanna.au.auth0.com',
-      client_id: 'gNkJFP7YEvD4OrBdbgjHYZzM8XwkhjYS',
+      client_id: 'G67GxBosfWPdK3n8r5kijZzGTdo3yzBB',
       redirect_uri: `${window.location.origin}/callback`,
     }),
   ) as Observable<Auth0Client>).pipe(
